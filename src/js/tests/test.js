@@ -116,7 +116,7 @@ test("проверка работы метода damage при health < 0", () =
   expect(unit.health).toEqual(0);
 });
 
-test("ghjdthrf edtkb", () => {
+test("проверка увеличения атаки в методе levelUp", () => {
   const legolas = new Character("legolas", "Bowman");
   legolas.attack = 20;
   legolas.levelUp();
